@@ -28,16 +28,24 @@
 
     </section>
 
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-64925-13");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-64925-13");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+		
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="site.js"></script>
+	<script>
+	  $(document).ready(function(){
+	    $(".main-content").fitVids();
+	  });
+	</script>
 
   </body>
 </html>
